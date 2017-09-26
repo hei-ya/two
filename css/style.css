@@ -1,0 +1,179 @@
+body {
+  font-size: 12px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  background: #F2F2F2;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+  body .header {
+    height: 0.45rem;
+    background: #F2F2F2;
+    position: relative; }
+    body .header h1 {
+      text-align: center;
+      line-height: 0.45rem;
+      font-size: 0.16rem;
+      font-weight: 400; }
+    body .header .address, body .header .price {
+      position: absolute;
+      left: 0.15rem;
+      top: 0.15rem;
+      font-size: 0.14rem;
+      color: #999; }
+    body .header .price {
+      right: 0.15rem;
+      left: auto; }
+  body .content {
+    -webkit-flex: 1;
+    overflow-y: scroll; }
+    body .content #banner {
+      height: 1.125rem;
+      width: 100%; }
+      body .content #banner img {
+        width: 100%;
+        height: 100%; }
+    body .content .nav {
+      width: 100%;
+      height: 0.92rem;
+      background: #fff;
+      display: -webkit-flex;
+      margin-bottom: 0.1rem; }
+      body .content .nav > dl {
+        -webkit-flex: 1;
+        text-align: center;
+        padding: 0.15rem 0; }
+        body .content .nav > dl > dt {
+          border-radius: 100%;
+          width: 0.4rem;
+          height: 0.4rem;
+          text-align: center;
+          line-height: 0.4rem;
+          margin-right: auto;
+          margin-left: auto;
+          color: #fff;
+          font-size: 0.24rem;
+          margin-bottom: 0.1rem; }
+    body .content .category {
+      width: 100%;
+      height: 1.96rem;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 0.1rem; }
+      body .content .category .chart-left {
+        width: 50%;
+        float: left;
+        height: 1.76rem;
+        position: relative;
+        padding-right: 0.06rem;
+        box-sizing: border-box; }
+        body .content .category .chart-left > p {
+          position: absolute;
+          right: 0.15rem;
+          top: 0.1rem;
+          color: #fff; }
+        body .content .category .chart-left img {
+          width: 100%;
+          height: 100%; }
+      body .content .category .chart-right {
+        width: 50%;
+        float: right;
+        height: 1.76rem;
+        box-sizing: border-box; }
+        body .content .category .chart-right .chart-top {
+          padding-bottom: 0.04rem; }
+        body .content .category .chart-right .chart-top, body .content .category .chart-right .chart-bottom {
+          height: 0.86rem;
+          width: 100%;
+          position: relative; }
+          body .content .category .chart-right .chart-top > p, body .content .category .chart-right .chart-bottom > p {
+            position: absolute;
+            top: 0.1rem;
+            right: 0.15rem;
+            color: #fff; }
+          body .content .category .chart-right .chart-top img, body .content .category .chart-right .chart-bottom img {
+            width: 100%;
+            height: 100%; }
+    body .content .recommend {
+      width: 100%;
+      height: 0.35rem; }
+      body .content .recommend p {
+        line-height: 0.35rem;
+        text-align: center; }
+        body .content .recommend p > span {
+          width: 25px;
+          height: 1px;
+          background: #ccc;
+          display: inline-block;
+          margin-bottom: 0.03rem; }
+    body .content .article-list {
+      width: 100%;
+      height: auto;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 0 0.1rem; }
+      body .content .article-list > dl {
+        width: 100%;
+        height: 1rem;
+        border-bottom: 1px solid #DEDEDE;
+        position: relative; }
+        body .content .article-list > dl > dt {
+          width: 0.73rem;
+          height: 0.73rem;
+          position: absolute;
+          top: 0.1rem; }
+          body .content .article-list > dl > dt > img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%; }
+        body .content .article-list > dl > dd {
+          margin-left: 80px; }
+          body .content .article-list > dl > dd > h3 {
+            height: 0.2rem;
+            padding-top: 0.1rem;
+            font-size: 0.16rem; }
+          body .content .article-list > dl > dd > p {
+            line-height: 1.5;
+            height: 0.2rem;
+            width: 100%;
+            margin-top: 0.03rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          body .content .article-list > dl > dd > h4 {
+            height: 0.35rem;
+            line-height: 0.35rem;
+            font-weight: 400; }
+            body .content .article-list > dl > dd > h4 > span {
+              color: #FD6E90;
+              font-size: 0.16rem;
+              margin-right: 0.05rem; }
+            body .content .article-list > dl > dd > h4 > i {
+              font-style: normal; }
+          body .content .article-list > dl > dd > h5 {
+            position: absolute;
+            right: 0.15rem;
+            bottom: 0;
+            font-weight: 400; }
+  body .footer {
+    height: 0.45rem;
+    width: 100%;
+    display: -webkit-flex;
+    background: #F2F2F2;
+    border-top: 1px solid #DEDEDE; }
+    body .footer > div.active {
+      color: #FD6E90; }
+    body .footer > div {
+      -webkit-flex: 1;
+      text-align: center;
+      height: 0.45rem;
+      padding: 0.05rem 0;
+      box-sizing: border-box; }
+      body .footer > div > span {
+        display: block; }
+      body .footer > div > i {
+        text-align: center;
+        font-size: 0.2rem; }
+
+/*# sourceMappingURL=style.css.map */

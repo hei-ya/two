@@ -1,0 +1,178 @@
+body
+  font-size: 12px
+  position: absolute
+  width: 100%
+  bottom: 0
+  top: 0
+  background: #F2F2F2
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  .header
+    height: .45rem
+    background: #F2F2F2
+    position: relative
+    h1
+      text-align: center
+      line-height: .45rem
+      font-size: .16rem
+      font-weight: 400
+    .address,.price
+      position: absolute
+      left: .15rem
+      top: .15rem
+      font-size: .14rem
+      color: #999
+    .price
+      right: .15rem
+      left: auto
+  .content
+    -webkit-flex: 1
+    overflow-y: scroll
+    #banner
+      height: 1.125rem
+      width: 100%
+      img
+        width: 100%
+        height: 100%
+    .nav
+      width: 100%
+      height: .92rem
+      background: #fff
+      display: -webkit-flex
+      margin-bottom: .1rem
+      &>dl
+        -webkit-flex: 1
+        text-align: center
+        padding: .15rem 0
+        &>dt
+          border-radius: 100%
+          width: .4rem
+          height: .4rem
+          text-align: center
+          line-height: .4rem
+          margin-right: auto
+          margin-left: auto
+          color: #fff
+          font-size: .24rem
+          margin-bottom: .1rem
+    .category
+      width: 100%
+      height: 1.96rem
+      background: #fff
+      box-sizing: border-box
+      padding: .1rem
+      .chart-left
+        width: 50%
+        float: left
+        height: 1.76rem
+        position: relative
+        padding-right: .06rem
+        box-sizing: border-box
+        &>p
+          position: absolute
+          right: .15rem
+          top: .1rem
+          color: #fff
+        img
+          width: 100%
+          height: 100%
+      .chart-right
+        width: 50%
+        float: right
+        height: 1.76rem
+        box-sizing: border-box
+        .chart-top
+          padding-bottom: .04rem
+        .chart-top,.chart-bottom
+          height: .86rem
+          width: 100%
+          position: relative
+          &>p
+            position: absolute
+            top: .1rem
+            right: .15rem
+            color: #fff
+          img
+            width: 100%
+            height: 100%
+    .recommend
+      width: 100%
+      height: .35rem
+      p
+        line-height: .35rem
+        text-align: center
+        &>span
+          width: 25px
+          height: 1px
+          background: #ccc
+          display: inline-block
+          margin-bottom: .03rem
+    .article-list
+      width: 100%
+      height: auto
+      background: #fff
+      box-sizing: border-box
+      padding: 0 .1rem
+      &>dl
+        width: 100%
+        height: 1rem
+        border-bottom: 1px solid #DEDEDE
+        position: relative
+        &>dt
+          width: .73rem
+          height: .73rem
+          position: absolute
+          top: .1rem
+          &>img
+            width: 100%
+            height: 100%
+            border-radius: 50%
+        &>dd
+          margin-left: 80px
+          &>h3
+            height: .2rem
+            padding-top: .1rem
+            font-size: .16rem
+          &>p
+            line-height: 1.5
+            height: .2rem
+            width: 100%
+            margin-top: .03rem
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+          &>h4
+            height: .35rem
+            line-height: .35rem
+            font-weight: 400
+            &>span
+              color: #FD6E90
+              font-size: .16rem
+              margin-right: .05rem
+            &>i
+              font-style: normal
+          &>h5
+            position: absolute
+            right: .15rem
+            bottom: 0
+            font-weight: 400
+  .footer
+    height: .45rem
+    width: 100%
+    display: -webkit-flex
+    background: #F2F2F2
+    border-top: 1px solid #DEDEDE
+    &>div.active
+      color: #FD6E90
+    &>div
+      -webkit-flex: 1
+      text-align: center
+      height: .45rem
+      padding: .05rem 0
+      box-sizing: border-box
+      &>span
+        display: block
+      &>i
+        text-align: center
+        font-size: .2rem
+
